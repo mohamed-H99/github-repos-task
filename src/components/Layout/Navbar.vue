@@ -1,29 +1,6 @@
 <template>
   <nav id="navbar">
     <div class="container-fluid">
-      <!-- icons -->
-      <!-- <ul class="location-btns">
-        <li>
-          <a href="#">
-            <v-icon name="arrow-alt-circle-left" scale="1.5" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <v-icon name="arrow-alt-circle-right" scale="1.5" />
-          </a>
-        </li>
-        <li>
-          <a href="/">
-            <v-icon name="times" scale="1.5" />
-          </a>
-        </li>
-        <li>
-          <a href="/">
-            <v-icon name="home" scale="1.5" />
-          </a>
-        </li>
-      </ul> -->
       <!-- title -->
       <h2 class="title">
         <span><v-icon name="poll" scale="1.5" /> Trending</span>Repos
@@ -79,22 +56,6 @@ export default {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-    .location-btns {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      gap: 0.5rem;
-      a {
-        text-decoration: none;
-        color: var(--dark);
-        opacity: 0.8;
-        transition: var(--transit);
-        &:hover {
-          opacity: 0.5;
-        }
-      }
-    }
     .title {
       margin: 0;
       span {
