@@ -56,19 +56,13 @@ npm i // install all packages for the project
 ```
 npm install vue-awesome // FontAwesome Components
 
-```
 
-```
 npm install --save axios vue-axios // Http Library
 
-```
 
-```
 npm i moment // Parse, validate, manipulate, and display dates
 
-```
 
-```
 npm i vue-paginate --save // A simple vue.js plugin to paginate data
 
 ```
