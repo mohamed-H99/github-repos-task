@@ -125,12 +125,13 @@ export default {
         justify-content: center;
         align-items: center;
         li {
+          // on disabled pagination - hide it
           &.disabled {
             a {
-              pointer-events: none;
               display: none;
             }
           }
+          // on active pagination - color it
           &.active {
             a {
               background: var(--blue);
@@ -158,6 +159,8 @@ export default {
     }
   }
 }
+
+// media query
 @media (max-width: 600px) {
   #main-app {
     margin-top: 10.5rem;
