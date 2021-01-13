@@ -2,7 +2,7 @@
   <nav id="navbar">
     <div class="container-fluid">
       <!-- icons -->
-      <ul class="location-btns">
+      <!-- <ul class="location-btns">
         <li>
           <a href="#">
             <v-icon name="arrow-alt-circle-left" scale="1.5" />
@@ -23,7 +23,7 @@
             <v-icon name="home" scale="1.5" />
           </a>
         </li>
-      </ul>
+      </ul> -->
       <!-- title -->
       <h2 class="title">
         <span><v-icon name="poll" scale="1.5" /> Trending</span>Repos
@@ -46,24 +46,24 @@
 <script>
 export default {
   name: "Navbar",
-  data: function() {
+  data: function () {
     return {
-      searchValue: null
-    }
+      searchValue: null,
+    };
   },
   methods: {
     searchRepo() {
       // active spinner after 1s
       setTimeout(() => {
-        document.querySelector('.spinner').classList.add('activate');
+        document.querySelector(".spinner").classList.add("activate");
       }, 1000);
       // remove spinner after..
       setTimeout(() => {
-        document.querySelector('.spinner').classList.remove('activate');
+        document.querySelector(".spinner").classList.remove("activate");
       }, 5000);
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -97,7 +97,9 @@ export default {
     }
     .title {
       margin: 0;
-      span {color: var(--blue);}
+      span {
+        color: var(--blue);
+      }
     }
     .search-bar {
       position: relative;
