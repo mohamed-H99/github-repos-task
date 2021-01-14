@@ -72,9 +72,6 @@ npm i vue-paginate --save // A simple vue.js plugin to paginate data
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-```
-
-```
 
 ## License
 
