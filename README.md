@@ -51,9 +51,6 @@ npm install -D sass-loader sass
 * [momentjs](https://momentjs.com/docs//) - A JavaScript date library for parsing, validating, manipulating, and formatting dates.
 * [vue-paginate](https://github.com/TahaSh/vue-paginate/) - The idea of vue-paginate is pretty simple. You give it an array of items; specify how many items per page; then get your list of items paginated!
 
-```
-npm i // install all packages for the project
-```
 
 # Setup Libraries
 
